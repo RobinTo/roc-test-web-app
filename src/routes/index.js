@@ -18,6 +18,6 @@ export default () => (
 );
 
 if (module.hot) {
-  require('../components/start');    // eslint-disable-line global-require
-  require('../components/about');   // eslint-disable-line global-require
+  require('../screens/start');    // eslint-disable-line global-require
+  require('../screens/about');   // eslint-disable-line global-require
 }
