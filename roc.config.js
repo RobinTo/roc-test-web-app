@@ -5,6 +5,9 @@ module.exports = {
       port: 3000,
       serve: ['public', 'build/client'],
       favicon: 'favicon.png',
+      template: {
+        path: 'src/template'
+      },
     },
     build: {
       reducers: 'src/redux/reducers.js',
