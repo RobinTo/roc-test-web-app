@@ -21,5 +21,4 @@ module.exports = {
       },
     },
   },
-  webpack: require('./webpack.config.js'),
 };
